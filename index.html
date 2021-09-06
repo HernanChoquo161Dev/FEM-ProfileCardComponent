@@ -12,25 +12,43 @@
 
   <link rel="stylesheet" href="./css/style.css">
 </head>
-
 <body>
-  <main class="main-profile">
-    <div class="profile-card">
-
+  <main class="main-page">
+    <!--component-->
+    <div class="flex-center-column profile-card">
+      <!--first element-->
+      <div class="profile-card__pictures">
+        <div class="profile-card__container-image">
+          <img class="profile-card__image" src="./images/image-victor.jpg" alt="profile-picture">
+        </div>
+      </div>
+      <!--second element-->
+      <div class="flex-center-column profile-card__user">
+        <div class="profile-card__container-user">
+          <h1 class="profile-card__user-name">Victor Crest</h1>
+          <span class="profile-card__user-age">26</span>
+        </div>
+        <span class="profile-card__user-city">London</span>
+      </div>
+      <!--third element-->
+      <hr class="profile-card__split">
+      <!--fourth element-->
+      <div class="flex-center profile-card__info">
+        <!--independent block-->
+        <div class="social-info">
+          <h2 class="social-info__amount">80K</h2>
+          <span class="social-info__user-info">Followers</span>
+        </div>
+        <div class="social-info">
+          <h2 class="social-info__amount">803K</h2>
+          <span class="social-info__user-info">Likes</span>
+        </div>
+        <div class="social-info">
+          <h2 class="social-info__amount">1.4K</h2>
+          <span class="social-info__user-info">Photos</span>
+        </div>
+      </div>
     </div>
   </main>
-  Victor Crest
-  26
-  London
-
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
 </body>
-
 </html>
