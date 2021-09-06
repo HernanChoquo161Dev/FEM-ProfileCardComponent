@@ -34,9 +34,8 @@ body {
   background-color: var(--background-color);
   background-image: url(../images/bg-pattern-top.svg),
     url("../images/bg-pattern-bottom.svg");
-  background-size: 70%, 70%;
   background-repeat: no-repeat, no-repeat;
-  background-position: left -350px bottom 0, right -200px top 400px;
+  background-position: right 50vw bottom 25vh, left 50vw top 45vh;
   /*--*/
   padding-top: 25vh;
 }
@@ -161,40 +160,10 @@ body {
   letter-spacing: 1.5px;
 }
 /*CSS - Changes for the adaptation responsive*/
-@media screen and (max-width: 1000px) {
-  body {
-    background-size: 90%, 90%;
-  }
-}
-/*CSS - Changes for the adaptation responsive*/
-@media screen and (max-width: 700px) {
-  body {
-    background-size: 100%, 100%;
-  }
-}
-/*CSS - Changes for the adaptation responsive*/
-@media screen and (max-width: 500px) {
-  body {
-    background-size: 120%, 120%;
-  }
-}
-/*CSS - Changes for the adaptation responsive*/
-@media screen and (max-width: 400px) {
-  body {
-    background-size: 140%, 140%;
-  }
-}
-/*CSS - Changes for the adaptation responsive*/
-@media screen and (max-width: 400px) {
-  body {
-    background-size: 150%, 150%;
-  }
-}
-/*CSS - Changes for the adaptation responsive*/
 @media screen and (max-width: 300px) {
   body {
-    background-size: 120%, 120%;
-    background-position: -200px -20px, 100px 500px;
+    background-size: cover;
+    background-position: right 40vw bottom 30vh, left 50vw top 60vh;
   }
   .profile-card__container-image {
     width: 50%;
