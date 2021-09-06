@@ -94,7 +94,7 @@ body {
   /*--*/
   flex-grow: 1;
   /*--*/
-  margin-top: 25%;
+  margin-top: 20%;
   margin-bottom: 5%;
 }
 .profile-card__container-user {
@@ -103,13 +103,13 @@ body {
 .profile-card__user-name {
   display: inline-block;
   font-family: "Kumbh Sans", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
 }
 .profile-card__user-age {
   color: var(--color-age);
   font-family: "Kumbh Sans", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
 }
 .profile-card__user-city {
@@ -117,6 +117,7 @@ body {
   /*--*/
   color: var(--color-text);
   /*--*/
+  font-size: 16px;
   font-family: "Kumbh Sans", sans-serif;
   font-weight: 700;
   text-align: center;
@@ -141,7 +142,7 @@ body {
 .social-info__amount {
   color: var(--color-bold);
   /*--*/
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Kumbh Sans", sans-serif;
   font-weight: 700;
   text-align: center;
@@ -155,7 +156,7 @@ body {
   /*--*/
   font-family: "Kumbh Sans", sans-serif;
   text-align: center;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 700;
   letter-spacing: 1.5px;
 }
